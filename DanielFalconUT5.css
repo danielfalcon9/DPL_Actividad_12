@@ -1,0 +1,59 @@
+*{
+    font-family:"Arial Helvetica SansSerif";
+}
+
+body{
+    height:100vh;
+}
+
+#cabecera{
+    height:15%;
+    background:lawngreen;
+}
+
+#cuerpo{
+    height:70%;
+    background:turquoise;
+}
+
+#pie{
+    height:15%;
+    background:red;
+}
+
+#nombre{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+.fondoMenu{
+    background:cornflowerblue;
+    border: 3px solid black;
+}
+
+.contenedorAmarillo{
+    background:yellow;
+}
+
+.contenedorBlanco{
+    background:white;
+}
+
+.contenedorImagen{
+    border: 2px solid black;
+}
+.contenedorBordePunteado{
+    border: 3px dotted black;
+}
+.imagen{
+    height: 4em;
+    width: 5em;
+}
+.contenedorBordePie{
+    border: 3px solid black;
+}
